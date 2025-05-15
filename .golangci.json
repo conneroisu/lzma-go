@@ -1,0 +1,87 @@
+{
+  "formatters": {
+    "exclusions": {
+      "generated": "lax",
+      "paths": [
+        "third_party$",
+        "builtin$",
+        "examples$"
+      ]
+    }
+  },
+  "linters": {
+    "enable": [
+      "asasalint",
+      "bidichk",
+      "bodyclose",
+      "gocheckcompilerdirectives",
+      "testifylint",
+      "unconvert",
+      "reassign",
+      "funcorder",
+      "gocheckcompilerdirectives",
+      "usetesting",
+      "errname",
+      "intrange",
+      "makezero",
+      "misspell",
+      "nilerr",
+      "nosprintfhostport",
+      "prealloc",
+      "revive",
+      "unconvert",
+      "usestdlibvars",
+      "wastedassign",
+      "whitespace"
+    ],
+    "exclusions": {
+      "generated": "lax",
+      "paths": [
+        "pkg/pegwings-go",
+        "(^|/)vendor($|/)",
+        "third_party$",
+        "builtin$",
+        "examples$"
+      ],
+      "presets": [
+        "comments",
+        "common-false-positives",
+        "legacy",
+        "std-error-handling"
+      ]
+    },
+    "settings": {
+      "revive": {
+        "enable-all-rules": false,
+        "rules": [
+          {
+            "exclude": [
+              "vendor/"
+            ],
+            "name": "blank-imports"
+          }
+        ]
+      },
+      "staticcheck": {
+        "checks": [
+          "-SA1019",
+          "all"
+        ]
+      }
+    }
+  },
+  "severity": {
+    "default": "error",
+    "rules": [
+      {
+        "linters": [
+          "goimports",
+          "intrange",
+          "usestdlibvars"
+        ],
+        "severity": "info"
+      }
+    ]
+  },
+  "version": "2"
+}
