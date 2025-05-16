@@ -1,6 +1,9 @@
 package lzma
 
-import "io"
+import (
+	"fmt"
+	"io"
+)
 
 // syncPipeReader is a pipe that can be closed with an error.
 type syncPipeReader struct {
@@ -12,7 +15,7 @@ func (sr *syncPipeReader) CloseWithError(err error) error {
 	retErr := sr.PipeReader.CloseWithError(err)
 	sr.closeChan <- true // finish writer close
 
-	return retErr
+	return fmt.Errorf("reader close with error: %w", retErr)
 }
 
 // syncPipeWriter is a pipe that can be closed with an error.
@@ -26,7 +29,7 @@ func (sw *syncPipeWriter) Close() error {
 	err := sw.PipeWriter.Close()
 	<-sw.closeChan // wait for reader close
 
-	return err
+	return fmt.Errorf("writer close with error: %w", err)
 }
 
 // newSyncPipe creates a new syncPipeReader and syncPipeWriter.

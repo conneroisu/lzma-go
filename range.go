@@ -2,6 +2,7 @@ package lzma
 
 import (
 	"bufio"
+	"fmt"
 	"io"
 )
 
@@ -49,7 +50,7 @@ func newRangeDecoder(r io.Reader) (*rangeDecoder, error) {
 	buf := make([]byte, 5)
 	_, err := io.ReadFull(rd.r, buf)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("failed to read header: %w", err)
 	}
 	for i := range buf {
 		rd.code = rd.code<<8 | uint32(buf[i])
@@ -73,7 +74,7 @@ func (rd *rangeDecoder) decodeDirectBits(numTotalBits uint32) (uint32, error) {
 		if rd.rrange < kTopValue {
 			c, err = rd.r.ReadByte()
 			if err != nil {
-				return 0, err
+				return 0, fmt.Errorf("failed to directly read byte: %w", err)
 			}
 			rd.code = rd.code<<8 | uint32(c)
 			rd.rrange <<= 8
@@ -179,7 +180,7 @@ func (re *rangeEncoder) flush() error {
 	}
 	err = re.w.Flush()
 	if err != nil {
-		return err
+		return fmt.Errorf("rangeEncoder failed to flush: %w", err)
 	}
 
 	return nil
@@ -195,7 +196,7 @@ func (re *rangeEncoder) shiftLow() error {
 		for ; dwtemp != 0; dwtemp = re.cacheSize {
 			err := re.w.WriteByte(byte(temp + lowHi))
 			if err != nil {
-				return err
+				return fmt.Errorf("rangeEncoder failed to write byte: %w", err)
 			}
 			temp = 0x000000FF
 			re.cacheSize--

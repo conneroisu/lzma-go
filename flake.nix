@@ -1,5 +1,5 @@
 {
-  description = "A development shell for go";
+  description = "A development shell for lzma-go.";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };

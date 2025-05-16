@@ -15,6 +15,7 @@
       "bidichk",
       "bodyclose",
       "gocheckcompilerdirectives",
+      "wrapcheck",
       "testifylint",
       "unconvert",
       "reassign",

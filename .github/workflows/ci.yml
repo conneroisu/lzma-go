@@ -1,0 +1,44 @@
+name: Build and Test
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+jobs:
+  envCI:
+    name: Build, Test, and Lint Go Project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - uses: "DeterminateSystems/nix-installer-action@main"
+        with:
+          determinate: true
+      - name: Build
+        run: |
+          echo "Building Go project..."
+          nix run .\#build-go
+      - name: Test
+        run: |
+          echo "Testing project..."
+          nix run .\#tests
+      - name: Lint
+        run: |
+          echo "Linting project..."
+          nix run .\#lint
+      - name: Check
+        run: |
+          echo "Checking Nix project..."
+          nix flake check
+  DeterminateCI:
+    uses: conneroisu/ci/.github/workflows/workflow.yml@main
+    permissions:
+      id-token: write
+      contents: read
+    with:
+      visibility: public
+      fail-fast: true
