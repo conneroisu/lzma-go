@@ -18,7 +18,7 @@ Package lzma package implements reading and writing of LZMA format compressed da
 # lzma
 
 ```go
-import "github.com/conneroisu/steroscopic-hardware/pkg/lzma"
+import "github.com/conneroisu/lzma-go"
 ```
 
 Package lzma package implements reading and writing of LZMA format compressed data.
@@ -69,7 +69,6 @@ defer r.Close()
 io.Copy(os.Stdout, r)
 ```
 
-
 ## Index
 
 - [Constants](<#constants>)
@@ -106,7 +105,7 @@ const (
 ```
 
 <a name="NewReader"></a>
-## func [NewReader](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/decoder.go#L47>)
+## func [NewReader](<https://github.com/conneroisu/lzma-go/blob/main/decoder.go#L47>)
 
 ```go
 func NewReader(r io.Reader) io.ReadCloser
@@ -117,7 +116,7 @@ NewReader returns a new [io.ReadCloser](<https://pkg.go.dev/io/#ReadCloser>) tha
 It is the caller's responsibility to call Close on the [io.ReadCloser](<https://pkg.go.dev/io/#ReadCloser>) when finished reading.
 
 <a name="NewWriter"></a>
-## func [NewWriter](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/encoder.go#L89>)
+## func [NewWriter](<https://github.com/conneroisu/lzma-go/blob/main/encoder.go#L89>)
 
 ```go
 func NewWriter(w io.Writer) (io.WriteCloser, error)
@@ -128,7 +127,7 @@ NewWriter creates a new Writer that compresses data to the given Writer using th
 Same as NewWriterSizeLevel\(w, \-1, DefaultCompression\).
 
 <a name="NewWriterLevel"></a>
-## func [NewWriterLevel](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/encoder.go#L61>)
+## func [NewWriterLevel](<https://github.com/conneroisu/lzma-go/blob/main/encoder.go#L61>)
 
 ```go
 func NewWriterLevel(w io.Writer, level int) (io.WriteCloser, error)
@@ -141,7 +140,7 @@ Level is any integer value between [lzma.BestSpeed](<#BestSpeed>) and [lzma.Best
 Same as lzma.NewWriterSizeLevel\(w, \-1, level\).
 
 <a name="NewWriterSize"></a>
-## func [NewWriterSize](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/encoder.go#L81>)
+## func [NewWriterSize](<https://github.com/conneroisu/lzma-go/blob/main/encoder.go#L81>)
 
 ```go
 func NewWriterSize(w io.Writer, size int64) (io.WriteCloser, error)
@@ -160,7 +159,7 @@ If size is \-1, last bytes are encoded in a different way to mark the end of the
 Same as NewWriterSizeLevel\(w, size, lzma.DefaultCompression\).
 
 <a name="NewWriterSizeLevel"></a>
-## func [NewWriterSizeLevel](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/encoder.go#L40>)
+## func [NewWriterSizeLevel](<https://github.com/conneroisu/lzma-go/blob/main/encoder.go#L40>)
 
 ```go
 func NewWriterSizeLevel(w io.Writer, size int64, level int) (io.WriteCloser, error)
@@ -179,7 +178,7 @@ If size is \-1, last bytes are encoded in a different way to mark the end of the
 The reason for which size is an argument is that, unlike gzip which appends the size and the checksum at the end of the stream, lzma stores the size before any compressed data. Thus, lzma can compute the size while reading data from pipe.
 
 <a name="ArgumentValueError"></a>
-## type [ArgumentValueError](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L39-L42>)
+## type [ArgumentValueError](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L39-L42>)
 
 An ArgumentValueError reports an error encountered while parsing user provided arguments.
 
@@ -190,7 +189,7 @@ type ArgumentValueError struct {
 ```
 
 <a name="ArgumentValueError.Error"></a>
-### func \(\*ArgumentValueError\) [Error](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L46>)
+### func \(\*ArgumentValueError\) [Error](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L46>)
 
 ```go
 func (e *ArgumentValueError) Error() string
@@ -199,7 +198,7 @@ func (e *ArgumentValueError) Error() string
 Error returns the error message and implements the error interface on the ArgumentValueError type.
 
 <a name="HeaderError"></a>
-## type [HeaderError](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L6-L8>)
+## type [HeaderError](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L6-L8>)
 
 HeaderError is returned when the header is corrupt.
 
@@ -210,7 +209,7 @@ type HeaderError struct {
 ```
 
 <a name="HeaderError.Error"></a>
-### func \(HeaderError\) [Error](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L12>)
+### func \(HeaderError\) [Error](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L12>)
 
 ```go
 func (e HeaderError) Error() string
@@ -219,7 +218,7 @@ func (e HeaderError) Error() string
 Error returns the error message and implements the error interface on the HeaderError type.
 
 <a name="NWriteError"></a>
-## type [NWriteError](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L28-L30>)
+## type [NWriteError](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L28-L30>)
 
 NWriteError is returned when the number of bytes returned by Writer.Write\(\) didn't meet expectances.
 
@@ -230,7 +229,7 @@ type NWriteError struct {
 ```
 
 <a name="NWriteError.Error"></a>
-### func \(\*NWriteError\) [Error](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L34>)
+### func \(\*NWriteError\) [Error](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L34>)
 
 ```go
 func (e *NWriteError) Error() string
@@ -239,7 +238,7 @@ func (e *NWriteError) Error() string
 Error returns the error message and implements the error interface on the NWriteError type.
 
 <a name="Reader"></a>
-## type [Reader](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/range.go#L24-L27>)
+## type [Reader](<https://github.com/conneroisu/lzma-go/blob/main/range.go#L25-L28>)
 
 Reader is the actual read interface needed by \[NewDecoder\].
 
@@ -253,7 +252,7 @@ type Reader interface {
 ```
 
 <a name="StreamError"></a>
-## type [StreamError](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L17-L19>)
+## type [StreamError](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L17-L19>)
 
 StreamError is returned when the stream is corrupt.
 
@@ -264,7 +263,7 @@ type StreamError struct {
 ```
 
 <a name="StreamError.Error"></a>
-### func \(\*StreamError\) [Error](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/errors.go#L23>)
+### func \(\*StreamError\) [Error](<https://github.com/conneroisu/lzma-go/blob/main/errors.go#L23>)
 
 ```go
 func (e *StreamError) Error() string
@@ -273,7 +272,7 @@ func (e *StreamError) Error() string
 Error returns the error message and implements the error interface on the StreamError type.
 
 <a name="Writer"></a>
-## type [Writer](<https://github.com/conneroisu/steroscopic-hardware/blob/main/pkg/lzma/range.go#L138-L142>)
+## type [Writer](<https://github.com/conneroisu/lzma-go/blob/main/range.go#L139-L143>)
 
 Writer is the actual write interface needed by \[NewEncoder\].
 
