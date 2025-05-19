@@ -26,6 +26,14 @@
           exec = ''$EDITOR "$REPO_ROOT"/go.mod'';
           description = "Edit go.mod";
         };
+        lint = {
+          exec = ''
+            statix check "$REPO_ROOT"
+            deadnix "$REPO_ROOT"/flake.nix
+            golangci-lint run --fix "$REPO_ROOT"
+          '';
+          description = "Run linters";
+        };
       };
 
       scriptPackages =
