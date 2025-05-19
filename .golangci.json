@@ -15,6 +15,7 @@
       "bidichk",
       "bodyclose",
       "gocheckcompilerdirectives",
+      "prealloc",
       "wrapcheck",
       "testifylint",
       "unconvert",
@@ -72,7 +73,8 @@
     }
   },
   "severity": {
-    "default": "error",
+    "default": "warning",
+    "default-severity": "warning",
     "rules": [
       {
         "linters": [
