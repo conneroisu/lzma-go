@@ -78,6 +78,7 @@
             graphviz
             goreleaser
             cobra-cli
+            python3
           ]
           ++ builtins.attrValues scriptPackages;
 
