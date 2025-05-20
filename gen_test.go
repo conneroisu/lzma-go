@@ -12,7 +12,7 @@ import (
 	"github.com/conneroisu/lzma-go"
 )
 
-const testDir = "lzma_test_files"
+const testDir = "testdata"
 
 type generatedTest struct {
 	name        string
@@ -345,7 +345,7 @@ func TestGeneratedFilesParallel(t *testing.T) {
 // BenchmarkEncode benchmarks the encoder with various file sizes.
 func BenchmarkEncode(b *testing.B) {
 	// Skip if the test files directory doesn't exist
-	testDir := "lzma_test_files"
+	testDir := "testdata"
 	if _, err := os.Stat(testDir); os.IsNotExist(err) {
 		b.Skip("Test files directory not found. Run generate_testfiles.sh first")
 	}
@@ -435,7 +435,7 @@ func benchmarkFileGroup(b *testing.B, name string, files []string) {
 // BenchmarkDecode benchmarks the decoder with various file sizes.
 func BenchmarkDecode(b *testing.B) {
 	// Skip if the test files directory doesn't exist
-	testDir := "lzma_test_files"
+	testDir := "testdata"
 	if _, err := os.Stat(testDir); os.IsNotExist(err) {
 		b.Skip("Test files directory not found. Run generate_testfiles.sh first")
 	}

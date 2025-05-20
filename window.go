@@ -30,7 +30,7 @@ func (ow *outWindow) flush() error {
 	}
 	n, err := ow.w.Write(ow.buf[ow.streamPos : ow.streamPos+size])
 	if err != nil {
-		return err
+		return fmt.Errorf("outWindow flush error: %v", err)
 	}
 	if uint32(n) != size {
 		return &NWriteError{
@@ -139,7 +139,7 @@ func (iw *inWindow) readBlock() error {
 		}
 		n, err := iw.r.Read(iw.buf[iw.bufOffset+iw.streamPos : iw.blockSize])
 		if err != nil && err != io.EOF {
-			return err
+			return fmt.Errorf("inWindow read error: %v", err)
 		}
 		if n == 0 && err == io.EOF {
 			iw.posLimit = iw.streamPos
