@@ -18,10 +18,6 @@ jobs:
       - uses: "DeterminateSystems/nix-installer-action@main"
         with:
           determinate: true
-      - name: Build
-        run: |
-          echo "Building Go project..."
-          nix run .\#build-go
       - name: Test
         run: |
           echo "Testing project..."
