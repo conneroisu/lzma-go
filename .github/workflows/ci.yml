@@ -21,11 +21,11 @@ jobs:
       - name: Test
         run: |
           echo "Testing project..."
-          nix run .\#tests
+          nix develop -c tests
       - name: Lint
         run: |
           echo "Linting project..."
-          nix run .\#lint
+          nix develop -c lint
       - name: Check
         run: |
           echo "Checking Nix project..."
