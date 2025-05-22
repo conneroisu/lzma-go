@@ -1,0 +1,608 @@
+# LZMA Test Files Manifest
+# Generated on: Tue May 20 08:50:19 AM CDT 2025
+
+## Raw Files
+a4fdf6e223ed8d93582ece81b27133b0
+  testdata/raw/test_100.dat (110090 bytes)
+df0adeff331f5d8c2dd135e09f9f937c
+  testdata/raw/test_10.dat (20090 bytes)
+eef7c2d5a32ce246ffa3d32b6226a485
+  testdata/raw/test_11.dat (201 bytes)
+90e5cc95cdb1f08d4c2e4234a3bb3d7d
+  testdata/raw/test_12.dat (2290 bytes)
+fc0bd53e6d1b5e667d5c7c4c61f65957
+  testdata/raw/test_13.dat (203 bytes)
+4dc17c3871bade07a17433b8fa1a0ef4
+  testdata/raw/test_14.dat (204 bytes)
+71e983930fed3019468271be4af99c7d
+  testdata/raw/test_15.dat (25090 bytes)
+03402b9f1e6416f3706cdcd8ad5d012e
+  testdata/raw/test_16.dat (206 bytes)
+da51b042769d19316749aecf519cab68
+  testdata/raw/test_17.dat (207 bytes)
+23345e70aea8e18277125a0148bc5836
+  testdata/raw/test_18.dat (2890 bytes)
+53d16ee587e07a1c9ac9cf6b95819074
+  testdata/raw/test_19.dat (209 bytes)
+94aa5c22f46632f5091661f6896df36a
+  testdata/raw/test_1.dat (191 bytes)
+4244e6f6ff3c35a95e80d19dcee997de
+  testdata/raw/test_20.dat (30090 bytes)
+7ed31a36ef0280a2c800658fed72ea16
+  testdata/raw/test_21.dat (3190 bytes)
+718e6b31920f21fbf79064f469cb5a7e
+  testdata/raw/test_22.dat (212 bytes)
+f45a130226ea475952f564f0c82ebb11
+  testdata/raw/test_23.dat (213 bytes)
+93dabbd65caa8036be1954b53664eb8c
+  testdata/raw/test_24.dat (3490 bytes)
+99aa68b15b0d7cc1472ff6e485f229cf
+  testdata/raw/test_25.dat (35090 bytes)
+9c3dc9300336875cd297793e5ebb2ea6
+  testdata/raw/test_26.dat (216 bytes)
+6a8f086c9eb7e0f074968299d217cecc
+  testdata/raw/test_27.dat (3790 bytes)
+92bed9dc52a730b2ba22ce48fcefb453
+  testdata/raw/test_28.dat (218 bytes)
+934ec9693daaa9f64e88810caba5f85f
+  testdata/raw/test_29.dat (219 bytes)
+8ce64d9c9843dcc7b1f5fe0a7769b97c
+  testdata/raw/test_2.dat (192 bytes)
+9512b308617e1761f4ea15ee3478c779
+  testdata/raw/test_30.dat (40090 bytes)
+f66a251e47d13adc8a09a7d73fd174e3
+  testdata/raw/test_31.dat (221 bytes)
+bd911986944071782b40843950fb74a8
+  testdata/raw/test_32.dat (222 bytes)
+9adbe95c0eb3432391c025469293cdb1
+  testdata/raw/test_33.dat (4390 bytes)
+dd54d1f43f7595515a4e337942dc80ab
+  testdata/raw/test_34.dat (224 bytes)
+38eb014fa59835cdc6f7f96ec89a3834
+  testdata/raw/test_35.dat (45090 bytes)
+f9aac02412fb917fb1ccee21beec1e51
+  testdata/raw/test_36.dat (4690 bytes)
+22329fccd9648e2ceabecc32ffb2c2a5
+  testdata/raw/test_37.dat (227 bytes)
+3793069270dd0879bbb0072f39bae1a2
+  testdata/raw/test_38.dat (228 bytes)
+1ca7cde0be8fac3ee043c6c25c3b22d2
+  testdata/raw/test_39.dat (4990 bytes)
+626f6d2164f9a58a20f388bb688e4461
+  testdata/raw/test_3.dat (1390 bytes)
+db51ba9980431dc6a22a514fb848bcf9
+  testdata/raw/test_40.dat (50090 bytes)
+dc36c693f4894671e204f6de5dbad0ca
+  testdata/raw/test_41.dat (231 bytes)
+89489f6a4d5a0276cd55d31866c1a31e
+  testdata/raw/test_42.dat (5290 bytes)
+ef3e16e8d4743bcaf36d64e0ba2a66bd
+  testdata/raw/test_43.dat (233 bytes)
+2e2f301a91da9df44fedcc2ed23b7ed5
+  testdata/raw/test_44.dat (234 bytes)
+e784da281b7380af257d2a8852b56bb7
+  testdata/raw/test_45.dat (55090 bytes)
+c25e430bb524f05950d6031c5d6512b4
+  testdata/raw/test_46.dat (236 bytes)
+a56f82d7f14e8c73b457330e1713a352
+  testdata/raw/test_47.dat (237 bytes)
+34b16c93f8564e0f4cb27990f28a038d
+  testdata/raw/test_48.dat (5890 bytes)
+f982df48d8de8a714bb41682bdfafe0b
+  testdata/raw/test_49.dat (239 bytes)
+a805642ddbde743173488636ab208eb4
+  testdata/raw/test_4.dat (194 bytes)
+f9b914adec1df346c9f608cf5705d544
+  testdata/raw/test_50.dat (60090 bytes)
+78ea0350c85e97bcf3b028a46759d5f2
+  testdata/raw/test_51.dat (6190 bytes)
+30e73b6be864d3f7c3d3b17fd751bd18
+  testdata/raw/test_52.dat (242 bytes)
+90452f310fc9740ea81e6fe00ddcd013
+  testdata/raw/test_53.dat (243 bytes)
+ee4498641fa922fad440496f1441f6d4
+  testdata/raw/test_54.dat (6490 bytes)
+6a4578b30b43ec721c2f03b7c33ae35c
+  testdata/raw/test_55.dat (65090 bytes)
+f0fbe357414432abaef2471b6b0015af
+  testdata/raw/test_56.dat (246 bytes)
+b2cb6d7c8f0f48b73ad1a906c1702cf5
+  testdata/raw/test_57.dat (6790 bytes)
+9ff178879b8d4e9a7d9fd1b2cbf4cc8c
+  testdata/raw/test_58.dat (248 bytes)
+48f7d8b653bdb7bf73d4c60361d98081
+  testdata/raw/test_59.dat (249 bytes)
+dac8afc083c752132a426e9a925ca534
+  testdata/raw/test_5.dat (15090 bytes)
+7619b782325a0ab025f90aa531b5b28f
+  testdata/raw/test_60.dat (70090 bytes)
+64a9aec16b5f88d97a9f13ed7027c0bd
+  testdata/raw/test_61.dat (251 bytes)
+f840405edcbef4b04f0cf7ba271be599
+  testdata/raw/test_62.dat (252 bytes)
+b68a96ec67f289408e63a5e02551a4d4
+  testdata/raw/test_63.dat (7390 bytes)
+7ec85e022aefa8a64693ba0c67b81f22
+  testdata/raw/test_64.dat (254 bytes)
+29de986852785a6db05684a814677939
+  testdata/raw/test_65.dat (75090 bytes)
+7059c70b4f724c071186b48e18d54d43
+  testdata/raw/test_66.dat (7690 bytes)
+6abd8ae1eeac806b741ab3e5ec8caf0c
+  testdata/raw/test_67.dat (257 bytes)
+a98701eca194c93541bcab6bdd4a75da
+  testdata/raw/test_68.dat (258 bytes)
+80d9b753d8eb1709c4896c5c7932694d
+  testdata/raw/test_69.dat (7990 bytes)
+fc4b087edd5f8c99699d648b8437724a
+  testdata/raw/test_6.dat (1690 bytes)
+9d48a68fa546bf1865435c138128469f
+  testdata/raw/test_70.dat (80090 bytes)
+7bed0115b43cfcec993981b4b16d1cf0
+  testdata/raw/test_71.dat (261 bytes)
+f2d105fda58b72daea50854f32594e89
+  testdata/raw/test_72.dat (8290 bytes)
+ee9aea7735f3315e1850f709c74283ed
+  testdata/raw/test_73.dat (263 bytes)
+cc9ac978b746a19c3108475a99c33b37
+  testdata/raw/test_74.dat (264 bytes)
+0541e06cb587c2436625b4da0efeea37
+  testdata/raw/test_75.dat (85090 bytes)
+e7011d3e82e42d77f86fcda2bae47a1d
+  testdata/raw/test_76.dat (266 bytes)
+24c886c9ae50628e72f82387db43d3f0
+  testdata/raw/test_77.dat (267 bytes)
+4466bb351f4f29d6e37b27f10b9081f9
+  testdata/raw/test_78.dat (8890 bytes)
+17b60efbb193221892f085d0143e0eda
+  testdata/raw/test_79.dat (269 bytes)
+96c9a16299bb4423b444e6369a97d1bc
+  testdata/raw/test_7.dat (197 bytes)
+3b1875a0b5bb9774d2572d84ef23047f
+  testdata/raw/test_80.dat (90090 bytes)
+65af2b69c16401683454ab531a14be4d
+  testdata/raw/test_81.dat (9190 bytes)
+448f9f6746f2ccb1b728d8781067b2bc
+  testdata/raw/test_82.dat (272 bytes)
+692adb56ec7771ea08cb89ad4fae7b57
+  testdata/raw/test_83.dat (273 bytes)
+ab896f49c821aec30d08683e86622026
+  testdata/raw/test_84.dat (9490 bytes)
+08d3978de91d4c4b536ffa23f1b4bdae
+  testdata/raw/test_85.dat (95090 bytes)
+5a2a4585b94319dc3dfd1c544419cd03
+  testdata/raw/test_86.dat (276 bytes)
+d21b6c568cb8e0489c609da634f990b0
+  testdata/raw/test_87.dat (9790 bytes)
+ca2c44a4245883eacaffd20478a71000
+  testdata/raw/test_88.dat (278 bytes)
+93ba48ef079be60a3bd7053685310cef
+  testdata/raw/test_89.dat (279 bytes)
+f6c11ed6583df257f609c7ad0428d525
+  testdata/raw/test_8.dat (198 bytes)
+e054e9d632cea3aa3d900f963c416965
+  testdata/raw/test_90.dat (100090 bytes)
+71cb3e46d4bffa40494f76df0fac51d8
+  testdata/raw/test_91.dat (281 bytes)
+e2a52d0bc02e4bb99034817c075060bf
+  testdata/raw/test_92.dat (282 bytes)
+be852419c0111f898965c556d51a08ef
+  testdata/raw/test_93.dat (10390 bytes)
+96459985ad98db0852e9f1aaf672817f
+  testdata/raw/test_94.dat (284 bytes)
+b79c42b5bc6bfdc726111c858c1a6433
+  testdata/raw/test_95.dat (105090 bytes)
+071dc3a5e0f472e0f10c9796fa43c3e9
+  testdata/raw/test_96.dat (10690 bytes)
+a44bfe2b52b18007f631922cae535ba1
+  testdata/raw/test_97.dat (287 bytes)
+06b8550951c7b50a4aecde48a5ab7da0
+  testdata/raw/test_98.dat (288 bytes)
+3042b0bb11971127e7e814c8f250e48c
+  testdata/raw/test_99.dat (10990 bytes)
+dced936546dc77880b5c1f7ffe619963
+  testdata/raw/test_9.dat (1990 bytes)
+
+## Encoded Files (size unknown)
+5fee0a0c0865e72518488f8922b98f26
+  testdata/encoded/test_100.lzma (91836 bytes)
+db69e1219f44ab01dcc8c8b0b78249f9
+  testdata/encoded/test_10.lzma (16834 bytes)
+6803f0496a6d1eaa5c0c5f19544e6aec
+  testdata/encoded/test_11.lzma (213 bytes)
+58adfdc856373482085546a3a361dfbc
+  testdata/encoded/test_12.lzma (1965 bytes)
+5f1ebf9d29052b71a7cfd5d9c56217af
+  testdata/encoded/test_13.lzma (215 bytes)
+f39864dfc7409789c9c56b9fc76c63ce
+  testdata/encoded/test_14.lzma (215 bytes)
+a59bea3c63283435287fac87dc5eb64e
+  testdata/encoded/test_15.lzma (20995 bytes)
+6bbd44fa6ae9f4aecac47def364fe726
+  testdata/encoded/test_16.lzma (218 bytes)
+cc56a5c31b402f60bdc0251a98c3e873
+  testdata/encoded/test_17.lzma (219 bytes)
+5ce87b4a903f2f0d710fe99a7a30bcb2
+  testdata/encoded/test_18.lzma (2468 bytes)
+d15c5749c680395075462205e3b33b90
+  testdata/encoded/test_19.lzma (222 bytes)
+fae685a4540e11a8ee9af0d905db3f54
+  testdata/encoded/test_1.lzma (204 bytes)
+1aac7f79a32ecdc0ae7b3ef6436cd185
+  testdata/encoded/test_20.lzma (25171 bytes)
+b8aef6ee9fe81a8dcc43016521a8e7c9
+  testdata/encoded/test_21.lzma (2721 bytes)
+763ddf653c981c00a82fe180bdd67959
+  testdata/encoded/test_22.lzma (225 bytes)
+d297afb0212cfbe36e3ebd32fd6f5509
+  testdata/encoded/test_23.lzma (225 bytes)
+4f7dd64b175e9787275d34b84df6a60c
+  testdata/encoded/test_24.lzma (2972 bytes)
+2323326bb7a50389eff1037296ecade0
+  testdata/encoded/test_25.lzma (29335 bytes)
+02bd8cb10621c459c9f73d0e746de08a
+  testdata/encoded/test_26.lzma (228 bytes)
+b3d8475638027f962a1d58f499ea2ab1
+  testdata/encoded/test_27.lzma (3218 bytes)
+8e0e32606045094e82755087e3c83f39
+  testdata/encoded/test_28.lzma (227 bytes)
+10713db69fa5655372ba69a1a9ff40f6
+  testdata/encoded/test_29.lzma (230 bytes)
+ff8ad8b0dc7185477c323c45219c8f70
+  testdata/encoded/test_2.lzma (205 bytes)
+f4ce9614cf4dee9d9dfb79ccda11e068
+  testdata/encoded/test_30.lzma (33497 bytes)
+715517a3114a9e60d2a0b7fa9f3bbd9a
+  testdata/encoded/test_31.lzma (233 bytes)
+3f0a28ce9783da413993049e70797b90
+  testdata/encoded/test_32.lzma (233 bytes)
+f19b6e22c337e3579ff87b0c543fde61
+  testdata/encoded/test_33.lzma (3719 bytes)
+2cb9756d3bcb01659567826682267ec5
+  testdata/encoded/test_34.lzma (235 bytes)
+fa9c1452cdcb9302b00f025e5660f7d4
+  testdata/encoded/test_35.lzma (37671 bytes)
+676a37602a940f268d22d95281f1cc43
+  testdata/encoded/test_36.lzma (3971 bytes)
+811b87e975f0520dbbdfc93f18b4f803
+  testdata/encoded/test_37.lzma (235 bytes)
+9ca21bc1b1bc4bea66591785e40d06dd
+  testdata/encoded/test_38.lzma (239 bytes)
+5e52d7af7ab9db5c31937f5dbceb87f3
+  testdata/encoded/test_39.lzma (4232 bytes)
+ed821fce5fa27eaaa4d750f10f4cecd8
+  testdata/encoded/test_3.lzma (1215 bytes)
+cc381df9e78a9f15502f9baeeb83c46d
+  testdata/encoded/test_40.lzma (41856 bytes)
+ba3c79ba55c2a9724edd4ea41a76104f
+  testdata/encoded/test_41.lzma (239 bytes)
+c63e274dfa0ebc5e0e7e3de9df43849b
+  testdata/encoded/test_42.lzma (4475 bytes)
+29018cf37fe9a6a1cb1dac03422cf63c
+  testdata/encoded/test_43.lzma (242 bytes)
+13cc67bf2a8eccfe59aa6fdc82851b23
+  testdata/encoded/test_44.lzma (242 bytes)
+43825f628c97b9b4df983f809adb9f67
+  testdata/encoded/test_45.lzma (45996 bytes)
+7b9629d7f17f7940e70b982aa9a6d33a
+  testdata/encoded/test_46.lzma (244 bytes)
+2765351c771d2b1223b605f1a88d7436
+  testdata/encoded/test_47.lzma (245 bytes)
+4252ba485ebdd82f83c3019be663cef3
+  testdata/encoded/test_48.lzma (4977 bytes)
+ebc3c4e4849e4af2b7a676d9108438ce
+  testdata/encoded/test_49.lzma (246 bytes)
+fd66ff7123928186da1b94ce7ed5c735
+  testdata/encoded/test_4.lzma (207 bytes)
+4cc20bc52c679fbb8e7a3896f70c8ae4
+  testdata/encoded/test_50.lzma (50168 bytes)
+14199db4cd51af2504a111f41ec4e3a0
+  testdata/encoded/test_51.lzma (5226 bytes)
+b728ea47cfc927a9e6c3d1e787208991
+  testdata/encoded/test_52.lzma (249 bytes)
+fc7dd8856537b5a730f1f145e4054c43
+  testdata/encoded/test_53.lzma (252 bytes)
+04d2057404e5685cce03fc85ad1dc936
+  testdata/encoded/test_54.lzma (5482 bytes)
+2b3978fef6149bb0e87ff26828fab5dc
+  testdata/encoded/test_55.lzma (54362 bytes)
+71366b51f9da8da382a4b201c02ef256
+  testdata/encoded/test_56.lzma (253 bytes)
+42e5cf8a58139c5b6c6d8ce961ac7795
+  testdata/encoded/test_57.lzma (5726 bytes)
+64fa13544112610c897525c4215ea7a6
+  testdata/encoded/test_58.lzma (253 bytes)
+a5f5f3dce02e667e89aed0c381238613
+  testdata/encoded/test_59.lzma (256 bytes)
+42072ab980e3bf26de18d3ac05b28f1b
+  testdata/encoded/test_5.lzma (12661 bytes)
+88490aded4fd50346c4d271f8060011f
+  testdata/encoded/test_60.lzma (58499 bytes)
+ae653622be80aab3244ec4a694323145
+  testdata/encoded/test_61.lzma (258 bytes)
+6f173bb33b00fabebca857ab3904cc0d
+  testdata/encoded/test_62.lzma (259 bytes)
+ea80b52ca7483328546538b2f9dddce0
+  testdata/encoded/test_63.lzma (6228 bytes)
+998be19d1e04c67358861edee5971027
+  testdata/encoded/test_64.lzma (260 bytes)
+8ddbe5b077d465cb54ab922d757b362f
+  testdata/encoded/test_65.lzma (62673 bytes)
+003997f57427dd07357f42900b2a3ed5
+  testdata/encoded/test_66.lzma (6472 bytes)
+e1e720542cdfc244c42d6f4f0564a5c2
+  testdata/encoded/test_67.lzma (263 bytes)
+3216796e3abc5d26eea5271bb2e3af24
+  testdata/encoded/test_68.lzma (266 bytes)
+cfe7a3dd786193a7f7ac42b2a31d3e60
+  testdata/encoded/test_69.lzma (6730 bytes)
+c07ff5a779954699b6d52d0edb75eca2
+  testdata/encoded/test_6.lzma (1468 bytes)
+c5bcb31de6d6e0f3d422310291b9c461
+  testdata/encoded/test_70.lzma (66840 bytes)
+2dfd21eee4135603782933e58800e03d
+  testdata/encoded/test_71.lzma (266 bytes)
+3a1232639f8a47917c8804755b3cabbb
+  testdata/encoded/test_72.lzma (6983 bytes)
+3b5e03168167e5f478f47a2fd498b5bf
+  testdata/encoded/test_73.lzma (269 bytes)
+71c4a00418585631ab48caba9c7def66
+  testdata/encoded/test_74.lzma (269 bytes)
+13e4388ad07fbe1d2e4cb93c10ef967a
+  testdata/encoded/test_75.lzma (71014 bytes)
+400c14d82003f3f570f5cbd2bbe7e2a1
+  testdata/encoded/test_76.lzma (272 bytes)
+96353ed3b020596ae4dbe2746159b08a
+  testdata/encoded/test_77.lzma (272 bytes)
+94aae8e7c8e0673a527c6572e9b5569f
+  testdata/encoded/test_78.lzma (7477 bytes)
+554ca13aba37cbddd47890dc06da5583
+  testdata/encoded/test_79.lzma (274 bytes)
+e4e983064b0b8db719838d475cb8eb5f
+  testdata/encoded/test_7.lzma (210 bytes)
+c9ab29392323be6c46da55e0e2293fe8
+  testdata/encoded/test_80.lzma (75176 bytes)
+bf446bd28e3e7f93e203875c6243295f
+  testdata/encoded/test_81.lzma (7729 bytes)
+591f7d813eddcbe657ca0ad6adfe12fe
+  testdata/encoded/test_82.lzma (278 bytes)
+11349249afacfe625b897f70600ade76
+  testdata/encoded/test_83.lzma (277 bytes)
+a07eb50c7f02579206c9c1bbe9503812
+  testdata/encoded/test_84.lzma (7977 bytes)
+fd1ee990f0b29eb547cfc4f1cae96c3f
+  testdata/encoded/test_85.lzma (79368 bytes)
+4b5413e5fd6ea2688999695fb5eab3f5
+  testdata/encoded/test_86.lzma (279 bytes)
+307c93446c0730dd618b3e952c0f9420
+  testdata/encoded/test_87.lzma (8232 bytes)
+e99d1f405f350ec9a71e613b12160140
+  testdata/encoded/test_88.lzma (281 bytes)
+d65dbcb105b37e068dd1337b9bf012b4
+  testdata/encoded/test_89.lzma (282 bytes)
+13297da77445d72d876ddd1c84455934
+  testdata/encoded/test_8.lzma (211 bytes)
+70608263e16248ef2155feb65b06ec37
+  testdata/encoded/test_90.lzma (83487 bytes)
+3c567834df77e0d83730d06a6f0ca865
+  testdata/encoded/test_91.lzma (285 bytes)
+c40bc44b083c7893787fd25faa1bc0ea
+  testdata/encoded/test_92.lzma (286 bytes)
+64b54df728720ed2a659c7251cc1577e
+  testdata/encoded/test_93.lzma (8729 bytes)
+5b3c99492641fd55fac79628bcb83a32
+  testdata/encoded/test_94.lzma (285 bytes)
+a26851d84eb7636059e2b868bcecce8e
+  testdata/encoded/test_95.lzma (87671 bytes)
+789dfd07c1d2ac2383f43ed14393d513
+  testdata/encoded/test_96.lzma (8986 bytes)
+6fe55e771e47535072ceafc21869663d
+  testdata/encoded/test_97.lzma (289 bytes)
+f2534656492f6427852a2c2dc58d9a98
+  testdata/encoded/test_98.lzma (289 bytes)
+9c125029ce1a2e64e4b34ba72de13644
+  testdata/encoded/test_99.lzma (9238 bytes)
+1cd0c98c2f6e24f8fb4b4b6972c088e8
+  testdata/encoded/test_9.lzma (1713 bytes)
+
+## Encoded Files (size known)
+5fee0a0c0865e72518488f8922b98f26
+  testdata/encoded_size_known/test_100.lzma (91836 bytes)
+db69e1219f44ab01dcc8c8b0b78249f9
+  testdata/encoded_size_known/test_10.lzma (16834 bytes)
+6803f0496a6d1eaa5c0c5f19544e6aec
+  testdata/encoded_size_known/test_11.lzma (213 bytes)
+58adfdc856373482085546a3a361dfbc
+  testdata/encoded_size_known/test_12.lzma (1965 bytes)
+5f1ebf9d29052b71a7cfd5d9c56217af
+  testdata/encoded_size_known/test_13.lzma (215 bytes)
+f39864dfc7409789c9c56b9fc76c63ce
+  testdata/encoded_size_known/test_14.lzma (215 bytes)
+a59bea3c63283435287fac87dc5eb64e
+  testdata/encoded_size_known/test_15.lzma (20995 bytes)
+6bbd44fa6ae9f4aecac47def364fe726
+  testdata/encoded_size_known/test_16.lzma (218 bytes)
+cc56a5c31b402f60bdc0251a98c3e873
+  testdata/encoded_size_known/test_17.lzma (219 bytes)
+5ce87b4a903f2f0d710fe99a7a30bcb2
+  testdata/encoded_size_known/test_18.lzma (2468 bytes)
+d15c5749c680395075462205e3b33b90
+  testdata/encoded_size_known/test_19.lzma (222 bytes)
+fae685a4540e11a8ee9af0d905db3f54
+  testdata/encoded_size_known/test_1.lzma (204 bytes)
+1aac7f79a32ecdc0ae7b3ef6436cd185
+  testdata/encoded_size_known/test_20.lzma (25171 bytes)
+b8aef6ee9fe81a8dcc43016521a8e7c9
+  testdata/encoded_size_known/test_21.lzma (2721 bytes)
+763ddf653c981c00a82fe180bdd67959
+  testdata/encoded_size_known/test_22.lzma (225 bytes)
+d297afb0212cfbe36e3ebd32fd6f5509
+  testdata/encoded_size_known/test_23.lzma (225 bytes)
+4f7dd64b175e9787275d34b84df6a60c
+  testdata/encoded_size_known/test_24.lzma (2972 bytes)
+2323326bb7a50389eff1037296ecade0
+  testdata/encoded_size_known/test_25.lzma (29335 bytes)
+02bd8cb10621c459c9f73d0e746de08a
+  testdata/encoded_size_known/test_26.lzma (228 bytes)
+b3d8475638027f962a1d58f499ea2ab1
+  testdata/encoded_size_known/test_27.lzma (3218 bytes)
+8e0e32606045094e82755087e3c83f39
+  testdata/encoded_size_known/test_28.lzma (227 bytes)
+10713db69fa5655372ba69a1a9ff40f6
+  testdata/encoded_size_known/test_29.lzma (230 bytes)
+ff8ad8b0dc7185477c323c45219c8f70
+  testdata/encoded_size_known/test_2.lzma (205 bytes)
+f4ce9614cf4dee9d9dfb79ccda11e068
+  testdata/encoded_size_known/test_30.lzma (33497 bytes)
+715517a3114a9e60d2a0b7fa9f3bbd9a
+  testdata/encoded_size_known/test_31.lzma (233 bytes)
+3f0a28ce9783da413993049e70797b90
+  testdata/encoded_size_known/test_32.lzma (233 bytes)
+f19b6e22c337e3579ff87b0c543fde61
+  testdata/encoded_size_known/test_33.lzma (3719 bytes)
+2cb9756d3bcb01659567826682267ec5
+  testdata/encoded_size_known/test_34.lzma (235 bytes)
+fa9c1452cdcb9302b00f025e5660f7d4
+  testdata/encoded_size_known/test_35.lzma (37671 bytes)
+676a37602a940f268d22d95281f1cc43
+  testdata/encoded_size_known/test_36.lzma (3971 bytes)
+811b87e975f0520dbbdfc93f18b4f803
+  testdata/encoded_size_known/test_37.lzma (235 bytes)
+9ca21bc1b1bc4bea66591785e40d06dd
+  testdata/encoded_size_known/test_38.lzma (239 bytes)
+5e52d7af7ab9db5c31937f5dbceb87f3
+  testdata/encoded_size_known/test_39.lzma (4232 bytes)
+ed821fce5fa27eaaa4d750f10f4cecd8
+  testdata/encoded_size_known/test_3.lzma (1215 bytes)
+cc381df9e78a9f15502f9baeeb83c46d
+  testdata/encoded_size_known/test_40.lzma (41856 bytes)
+ba3c79ba55c2a9724edd4ea41a76104f
+  testdata/encoded_size_known/test_41.lzma (239 bytes)
+c63e274dfa0ebc5e0e7e3de9df43849b
+  testdata/encoded_size_known/test_42.lzma (4475 bytes)
+29018cf37fe9a6a1cb1dac03422cf63c
+  testdata/encoded_size_known/test_43.lzma (242 bytes)
+13cc67bf2a8eccfe59aa6fdc82851b23
+  testdata/encoded_size_known/test_44.lzma (242 bytes)
+43825f628c97b9b4df983f809adb9f67
+  testdata/encoded_size_known/test_45.lzma (45996 bytes)
+7b9629d7f17f7940e70b982aa9a6d33a
+  testdata/encoded_size_known/test_46.lzma (244 bytes)
+2765351c771d2b1223b605f1a88d7436
+  testdata/encoded_size_known/test_47.lzma (245 bytes)
+4252ba485ebdd82f83c3019be663cef3
+  testdata/encoded_size_known/test_48.lzma (4977 bytes)
+ebc3c4e4849e4af2b7a676d9108438ce
+  testdata/encoded_size_known/test_49.lzma (246 bytes)
+fd66ff7123928186da1b94ce7ed5c735
+  testdata/encoded_size_known/test_4.lzma (207 bytes)
+4cc20bc52c679fbb8e7a3896f70c8ae4
+  testdata/encoded_size_known/test_50.lzma (50168 bytes)
+14199db4cd51af2504a111f41ec4e3a0
+  testdata/encoded_size_known/test_51.lzma (5226 bytes)
+b728ea47cfc927a9e6c3d1e787208991
+  testdata/encoded_size_known/test_52.lzma (249 bytes)
+fc7dd8856537b5a730f1f145e4054c43
+  testdata/encoded_size_known/test_53.lzma (252 bytes)
+04d2057404e5685cce03fc85ad1dc936
+  testdata/encoded_size_known/test_54.lzma (5482 bytes)
+2b3978fef6149bb0e87ff26828fab5dc
+  testdata/encoded_size_known/test_55.lzma (54362 bytes)
+71366b51f9da8da382a4b201c02ef256
+  testdata/encoded_size_known/test_56.lzma (253 bytes)
+42e5cf8a58139c5b6c6d8ce961ac7795
+  testdata/encoded_size_known/test_57.lzma (5726 bytes)
+64fa13544112610c897525c4215ea7a6
+  testdata/encoded_size_known/test_58.lzma (253 bytes)
+a5f5f3dce02e667e89aed0c381238613
+  testdata/encoded_size_known/test_59.lzma (256 bytes)
+42072ab980e3bf26de18d3ac05b28f1b
+  testdata/encoded_size_known/test_5.lzma (12661 bytes)
+88490aded4fd50346c4d271f8060011f
+  testdata/encoded_size_known/test_60.lzma (58499 bytes)
+ae653622be80aab3244ec4a694323145
+  testdata/encoded_size_known/test_61.lzma (258 bytes)
+6f173bb33b00fabebca857ab3904cc0d
+  testdata/encoded_size_known/test_62.lzma (259 bytes)
+ea80b52ca7483328546538b2f9dddce0
+  testdata/encoded_size_known/test_63.lzma (6228 bytes)
+998be19d1e04c67358861edee5971027
+  testdata/encoded_size_known/test_64.lzma (260 bytes)
+8ddbe5b077d465cb54ab922d757b362f
+  testdata/encoded_size_known/test_65.lzma (62673 bytes)
+003997f57427dd07357f42900b2a3ed5
+  testdata/encoded_size_known/test_66.lzma (6472 bytes)
+e1e720542cdfc244c42d6f4f0564a5c2
+  testdata/encoded_size_known/test_67.lzma (263 bytes)
+3216796e3abc5d26eea5271bb2e3af24
+  testdata/encoded_size_known/test_68.lzma (266 bytes)
+cfe7a3dd786193a7f7ac42b2a31d3e60
+  testdata/encoded_size_known/test_69.lzma (6730 bytes)
+c07ff5a779954699b6d52d0edb75eca2
+  testdata/encoded_size_known/test_6.lzma (1468 bytes)
+c5bcb31de6d6e0f3d422310291b9c461
+  testdata/encoded_size_known/test_70.lzma (66840 bytes)
+2dfd21eee4135603782933e58800e03d
+  testdata/encoded_size_known/test_71.lzma (266 bytes)
+3a1232639f8a47917c8804755b3cabbb
+  testdata/encoded_size_known/test_72.lzma (6983 bytes)
+3b5e03168167e5f478f47a2fd498b5bf
+  testdata/encoded_size_known/test_73.lzma (269 bytes)
+71c4a00418585631ab48caba9c7def66
+  testdata/encoded_size_known/test_74.lzma (269 bytes)
+13e4388ad07fbe1d2e4cb93c10ef967a
+  testdata/encoded_size_known/test_75.lzma (71014 bytes)
+400c14d82003f3f570f5cbd2bbe7e2a1
+  testdata/encoded_size_known/test_76.lzma (272 bytes)
+96353ed3b020596ae4dbe2746159b08a
+  testdata/encoded_size_known/test_77.lzma (272 bytes)
+94aae8e7c8e0673a527c6572e9b5569f
+  testdata/encoded_size_known/test_78.lzma (7477 bytes)
+554ca13aba37cbddd47890dc06da5583
+  testdata/encoded_size_known/test_79.lzma (274 bytes)
+e4e983064b0b8db719838d475cb8eb5f
+  testdata/encoded_size_known/test_7.lzma (210 bytes)
+c9ab29392323be6c46da55e0e2293fe8
+  testdata/encoded_size_known/test_80.lzma (75176 bytes)
+bf446bd28e3e7f93e203875c6243295f
+  testdata/encoded_size_known/test_81.lzma (7729 bytes)
+591f7d813eddcbe657ca0ad6adfe12fe
+  testdata/encoded_size_known/test_82.lzma (278 bytes)
+11349249afacfe625b897f70600ade76
+  testdata/encoded_size_known/test_83.lzma (277 bytes)
+a07eb50c7f02579206c9c1bbe9503812
+  testdata/encoded_size_known/test_84.lzma (7977 bytes)
+fd1ee990f0b29eb547cfc4f1cae96c3f
+  testdata/encoded_size_known/test_85.lzma (79368 bytes)
+4b5413e5fd6ea2688999695fb5eab3f5
+  testdata/encoded_size_known/test_86.lzma (279 bytes)
+307c93446c0730dd618b3e952c0f9420
+  testdata/encoded_size_known/test_87.lzma (8232 bytes)
+e99d1f405f350ec9a71e613b12160140
+  testdata/encoded_size_known/test_88.lzma (281 bytes)
+d65dbcb105b37e068dd1337b9bf012b4
+  testdata/encoded_size_known/test_89.lzma (282 bytes)
+13297da77445d72d876ddd1c84455934
+  testdata/encoded_size_known/test_8.lzma (211 bytes)
+70608263e16248ef2155feb65b06ec37
+  testdata/encoded_size_known/test_90.lzma (83487 bytes)
+3c567834df77e0d83730d06a6f0ca865
+  testdata/encoded_size_known/test_91.lzma (285 bytes)
+c40bc44b083c7893787fd25faa1bc0ea
+  testdata/encoded_size_known/test_92.lzma (286 bytes)
+64b54df728720ed2a659c7251cc1577e
+  testdata/encoded_size_known/test_93.lzma (8729 bytes)
+5b3c99492641fd55fac79628bcb83a32
+  testdata/encoded_size_known/test_94.lzma (285 bytes)
+a26851d84eb7636059e2b868bcecce8e
+  testdata/encoded_size_known/test_95.lzma (87671 bytes)
+789dfd07c1d2ac2383f43ed14393d513
+  testdata/encoded_size_known/test_96.lzma (8986 bytes)
+6fe55e771e47535072ceafc21869663d
+  testdata/encoded_size_known/test_97.lzma (289 bytes)
+f2534656492f6427852a2c2dc58d9a98
+  testdata/encoded_size_known/test_98.lzma (289 bytes)
+9c125029ce1a2e64e4b34ba72de13644
+  testdata/encoded_size_known/test_99.lzma (9238 bytes)
+1cd0c98c2f6e24f8fb4b4b6972c088e8
+  testdata/encoded_size_known/test_9.lzma (1713 bytes)
