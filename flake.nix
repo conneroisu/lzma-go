@@ -34,6 +34,12 @@
           '';
           description = "Run linters";
         };
+        tests = {
+          exec = ''
+            go test -v ./...
+          '';
+          description = "Run tests";
+        };
       };
 
       scriptPackages =
